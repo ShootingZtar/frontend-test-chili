@@ -1,0 +1,101 @@
+body {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button:focus {
+  outline: none;
+}
+
+input {
+  outline: none;
+  transition: background-color .5s;
+}
+
+input::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.3s linear;
+  color: gray;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+}
+
+a:hover {
+  color: #23d432;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.modal-body {
+  background-image: url("bg-img2.jpg");
+  background-color: #cccccc;
+  min-height: calc(600px - 5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button, .button-blue, .button-green {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-style: none;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+.button-blue {
+  background-color: #2196F3;
+  color: white;
+}
+
+.button-blue:hover {
+  background-color: #1d7ac7;
+}
+
+.button-green {
+  background: #23d432;
+  color: white;
+}
+
+.button-green:hover {
+  background-color: #1ba326;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 12px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  vertical-align: sub;
+  padding: .5rem;
+}
+
+.modal-dismiss {
+  padding: 8px;
+  color: #5f5f5f;
+}
+
+.modal-dialog {
+  max-width: none;
+  margin: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
